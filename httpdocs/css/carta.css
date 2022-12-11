@@ -1,0 +1,25 @@
+@import 'styles.css';
+
+#filtro[aria-expanded=true],
+#filtro[aria-expanded=false] {
+    background-color: var(--primary-color);
+}
+
+.dark #filtro[aria-expanded=true],
+.dark #filtro[aria-expanded=false] {
+    color: var(--text-color);
+}
+
+#filtro:hover {
+    background-color: var(--primary-color);
+    color: var(--hover-color);
+}
+
+#filtro .dropdown-item {
+    height: 10px;
+}
+
+
+.card {
+    height: 100%;
+}
